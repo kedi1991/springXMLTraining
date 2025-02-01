@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Define a bean for a data source (example: database connection) -->
+    <bean id="developer" class="spring.Employee">
+        <property name="name" value="Okurut Henry Kedi"/>
+        <property name="id" value="001"/>
+        <property name="course" value="BSC. Compouter engineering"/>
+    </bean>
+
+
+</beans>
