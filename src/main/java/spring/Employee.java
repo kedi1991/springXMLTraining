@@ -11,11 +11,15 @@ public class Employee {
 
 	}
 
-	public Employee(String name, int id, String course, Address address) {
-		super();
+	public Employee(String name, int id, String course) {
 		this.name = name;
 		this.id = id;
 		this.course = course;
+	}
+	
+	
+
+	public Employee(Address address) {
 		this.address = address;
 	}
 

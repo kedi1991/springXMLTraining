@@ -9,6 +9,7 @@
         <property name="name" value="Okurut Henry Kedi"/>
         <property name="id" value="001"/>
         <property name="course" value="BSC. Compouter engineering"/>
+        <constructor-arg ref="addr"></constructor-arg>
     </bean>
     
     <bean id="addr" class="spring.Address">
