@@ -10,6 +10,12 @@
         <property name="id" value="001"/>
         <property name="course" value="BSC. Compouter engineering"/>
     </bean>
+    
+    <bean id="addr" class="spring.Address">
+        <property name="region" value="Central region"/>
+        <property name="city" value="Mukono"/>
+        <property name="zipCode" value="44555"/>
+    </bean>
 
 
 </beans>

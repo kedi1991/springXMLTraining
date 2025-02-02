@@ -8,9 +8,13 @@ public class Address {
 	
 	int zipCode;
 	
+	
+
+	public Address() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public Address(String region, String city, int zipCode) {
-		super();
 		this.region = region;
 		this.city = city;
 		this.zipCode = zipCode;
