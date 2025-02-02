@@ -17,7 +17,6 @@ public class Employee {
 		this.course = course;
 	}
 	
-	
 
 	public Employee(Address address) {
 		this.address = address;
