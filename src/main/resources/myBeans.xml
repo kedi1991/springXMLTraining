@@ -18,6 +18,9 @@
         <property name="city" value="Mukono"/>
         <property name="zipCode" value="44555"/>
     </bean>
+    
+    <bean id="hijackAfterMethodBean" class="spring.HijackAfterMethod">
+    </bean>
 
 
 </beans>
