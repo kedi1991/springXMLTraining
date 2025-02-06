@@ -21,6 +21,16 @@
     
     <bean id="hijackAfterMethodBean" class="spring.HijackAfterMethod">
     </bean>
+    
+    <bean id="developerProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+
+		<property name="target" ref="developer"></property>
+		<property name="interceptorNames">
+			<list>
+				<value>hijackAfterMethodBean</value>
+			</list>
+		</property>
+    </bean>
 
 
 </beans>
